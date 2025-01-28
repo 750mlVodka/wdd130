@@ -5,6 +5,14 @@
     --accent2_color: #6D6D6D;
 }
 
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
 * {
     text-decoration: none;
 }
