@@ -36,15 +36,6 @@ header {
     border-bottom: 1px solid #E3E3E3;
 }
 
-/* header {
-    background-color: var(--primary_color);
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 12.5rem 1fr;
-    border-bottom: 1px solid #e3e3e3 ;
-}
-*/
-
 header img {
     margin: 0 0.25rem 0 1rem;
     width: 10rem;;
@@ -133,6 +124,79 @@ section {
     max-height: 12rem;
 
 }
+
+/*
+ * Form CSS
+ * -------------------------------------------------------------------
+ */
+
+.contact_form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+}
+
+.contact_form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form divs */
+.form_div label[for="name"],
+.form_div label[for="email"],
+.form_div label[for="purpose"],
+.form_div label[for="message"]
+{
+    font-weight: bold;
+}
+
+.form_div {
+    margin-bottom: 10px;
+}
+
+.form_div input[type="email"],
+.form_div input[type="text"],
+.form_div textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form_radio {
+    margin: 1rem 0 1rem 0;
+}
+
+.form_div button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary_color);
+    color: var(--accent1_color);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*
+ * Map CSS
+ * -------------------------------------------------------------------
+ */
+
+.location {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #F9F9F9;
+}
+
+.location h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 /* Footer */
 

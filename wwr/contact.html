@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whitewater Rafting | About Us</title>
-    <meta name="description" content="This page provides contact information, history, and other promotions for the company.">
+    <title>Whitewater Rafting | Contact Us</title>
+    <meta name="description" content="This page provides contact information for the company.">
     <meta name="author" content="Yamsir Hernandez">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,33 +26,50 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img class="hero_banner" src="images/rafting65_600.jpg" alt="Hero image">
-            <h1>Whitewater Rafting</h1>
-            <article>
-                <img src="images/happy.jpg" alt="Happy client">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio rem nobis iusto atque eaque non.</p>
-            </article>
-        </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum iste eaque illum, labore quae necessitatibus nulla fugit nihil vero tenetur, placeat sunt eveniet numquam non pariatur deleniti consequuntur dolor. Dicta voluptate excepturi perferendis labore perspiciatis. Consectetur, fugit. Quo sunt maxime quaerat minus amet at eligendi et accusamus architecto perferendis!</p>
-            <img src="images/history.jpg" alt="History image">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus quas laudantium fuga illo ad nulla. Nobis obcaecati sint tenetur nemo, temporibus deleniti excepturi! Sit earum consequuntur, reiciendis debitis doloremque enim optio adipisci officia exercitationem corporis voluptas voluptates sequi eveniet in possimus, fugit alias dignissimos soluta quasi dolorem quos. Nulla.</p>
+        <section class="contact_form">
+            <h2>Contact US</h2>
+            <form action="#" method="post">
+                <div class="form_div">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form_div">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form_div">
+                    <label for="purpose">Purpose of messge</label>
+                    <div class="form_radio">
+                        <input type="radio" name="general" id="general">
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="form_radio">
+                        <input type="radio" name="reservation" id="reservation">
+                        <label for="reservation">Reservation</label>
+                    </div>
+                    <div class="form_radio">
+                        <input type="radio" name="suggestion" id="suggestion">
+                        <label for="suggestion">Suggestion</label>
+                    </div>
+                </div>
+                <div class="form_div">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" placeholder="Type your message here"></textarea>
+                </div>
+                <div class="form_div">
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Suscribe me to newsletter</label>
+                </div>
+                <div class="form_div">
+                    <button type="submit">Submit Message</button>
+                </div>
+            </form>
+
         </section>
-        <section class="images_section">
-            <h2>Adventure Awaits You!</h2>
-            <div class="container_images">
-                <figure><img src="images/rafting59_600.jpg" alt="">
-                    <figcaption>Having fun!</figcaption></figure>
-                <figure><img src="images/rafting58_600.jpg" alt="">
-                    <figcaption>Los Dientes del Diablo</figcaption></figure>
-                <figure><img src="images/rafting53_600.jpg" alt="">
-                    <figcaption>Big Mallard</figcaption></figure>
-                <figure><img src="images/rafting47_600.jpg" alt="">
-                    <figcaption>Half Dat Adventure</figcaption></figure>
-                <figure><img src="images/rafting42_600.jpg" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet.</figcaption></figure>
+        <section class="location">
+            <h2>Location</h2>
+            <div class="location_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64871.517976084695!2d-120.08830214674332!3d51.65587195608011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5381dbc4e17a5f7f%3A0xa16a783d0b455f15!2sLiquid%20Lifestyles%20Whitewater%20Rafting%20%26%20Kayaking!5e1!3m2!1ses-419!2smx!4v1739665554953!5m2!1ses-419!2smx" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
