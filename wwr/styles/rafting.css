@@ -82,6 +82,76 @@ nav a{
     padding: 1rem;
 }
 
+/*
+ * Call to action
+ * -------------------------------------------------------------------
+ */
+
+.call_to_action {
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+.call_to_action h2{
+    margin-bottom: 1rem;
+}
+
+.cta_button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary_color);
+    color: var(--accent1_color);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+/*
+ * Offer
+ * -------------------------------------------------------------------
+ */
+
+.grid_layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 4rem;
+    background-color: #F9F9F9;
+}
+
+.grid_item {
+    background-color: #F9F9F9;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+}
+
+.grid_item img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+ * Newsletter
+ * -------------------------------------------------------------------
+ */
+
+.newsletter {
+    background-color: #F9F9F9;
+    padding: 4rem;
+    text-align: center;
+}
+
+.newsletter h2{
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    max-width: 400px;
+    margin: auto;
+}
+
 .hero article {
     display: flex;
     align-items: center;
@@ -126,7 +196,7 @@ section {
 }
 
 /*
- * Form CSS
+ * Form
  * -------------------------------------------------------------------
  */
 
@@ -207,7 +277,7 @@ section {
 }
 
 /*
- * Map CSS
+ * Map
  * -------------------------------------------------------------------
  */
 
