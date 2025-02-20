@@ -164,6 +164,61 @@ nav a{
     height: auto;
 }
 
+
+
+/*
+ * Trips
+ * -------------------------------------------------------------------
+ */
+
+
+.trip_description {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+}
+
+.trip{
+    background: #F9F9F9;
+    padding: 15px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trip table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.trip_table {
+    padding: 2rem;
+}
+
+.trip_table table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trip_table th, .trip_table td {
+    border: 1px solid #DDD;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip_table th{
+    background-color: var(--secondary_color);
+    color: var(--accent1_color);
+}
+
 /* History */
 
 .history {
