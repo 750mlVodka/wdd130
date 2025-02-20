@@ -113,7 +113,7 @@ nav a{
 
 .grid_layout {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 4rem;
     background-color: #F9F9F9;
@@ -130,6 +130,15 @@ nav a{
 .grid_item img{
     max-width: 100%;
     height: auto;
+}
+
+.grid_item h3 {
+    padding: 1rem;
+}
+
+.grid_item p {
+    margin: auto;
+    width: 80%;
 }
 
 /*
